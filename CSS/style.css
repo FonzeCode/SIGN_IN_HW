@@ -1,0 +1,60 @@
+
+.container{
+    box-sizing: border-box;
+  border: 2px solid gray;
+    width: 500px;
+    margin: 40px;
+    text-align-last: center;
+  }
+  
+  
+  ul li{
+    display: inline-block;
+    margin: 15px;
+      align-self: center;   
+  }
+  .hr-lines:before{
+    content:"";
+    display:block;
+    height: 2px;
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 130px;
+    background: gray;
+  }
+  .hr-lines{
+    position: relative;
+    max-width: 100px;
+    margin: 50px auto;
+    text-align: center;
+  }
+ .hr-lines:after{
+content:"";
+height: 2px;
+width: 160px;
+background: gray;
+display: block;
+position: absolute;
+top:50%;
+right:130px;
+
+ }
+
+   .block{
+    width: 100%;
+    ;
+  }
+  
+  
+  #child2{
+    display: block;
+    width: 100%;
+    background: Yellow;
+  }
+  
+  #child3{
+    display: block;
+    width: 100%;
+    background: LightGray;
+  }
